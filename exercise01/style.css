@@ -125,7 +125,7 @@ header {
 }
 
 .main {
-  background-image: url(../imgs/apple_background.jpg);
+  background-image: url(./imgs/apple_background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
