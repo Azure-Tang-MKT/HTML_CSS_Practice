@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.iphone-page-overall {
+  max-width: 940px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.compare-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 40px;
+  grid-column-gap: 5%;
+}
+
+.iphone-14-pro-device,
+.iphone-14-device,
+.iphone-13-device,
+.iphone-SE-device {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.device-image {
+  height: 190px;
+}
+.version {
+  color: #bf4800;
+  font-size: 16px;
+}
+
+.device-name {
+  width: 137px;
+}
+
+.pre-order-btn {
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  cursor: pointer;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  min-width: 23px;
+  padding: 4px 11px;
+  font-size: 12px;
+  line-height: 1.3333733333;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.slogan {
+  padding-bottom: 20px;
+}
+.price {
+  font-size: 14px;
+}
+.learn-more {
+  color: #06c;
+  font-size: 14px;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+.color-wrapper {
+  width: 93px;
+}

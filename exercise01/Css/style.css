@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
 }
 
 a {
@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .iphone14-link {
@@ -51,6 +51,11 @@ header {
   background-color: #3a3633;
   color: #fff;
   font-size: 22px;
+}
+
+.sub-head {
+  padding: 0 20px;
+  text-align: center;
 }
 
 header img {
@@ -108,26 +113,24 @@ footer {
   min-height: 100vh;
 }
 
+.logo {
+  padding-top: 7px;
+}
+
 header {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.header-elements {
-  width: 70%;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10%;
+  max-height: 90px;
 }
 
 .main {
-  background-image: url(./imgs/apple_background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../imgs/apple_background.jpg);
+  /*background-repeat: no-repeat;*/
+  background-size: auto; /*本来是cover但是不想让它跟着屏幕变化而变化 */
   background-attachment: fixed;
   background-position: center;
   display: flex;
@@ -148,15 +151,10 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.footer-elements {
-  width: 70%;
-  display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10%;
+  max-height: 109px;
 }
 
 .footer-row {
@@ -164,4 +162,17 @@ footer {
   /* padding: 0, 40px; */
   justify-content: space-between;
   align-items: center;
+}
+
+@media only screen and (max-width: 415px) {
+  footer {
+    font-size: 10px;
+    gap: 1px;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  footer {
+    font-size: 12px;
+  }
 }
