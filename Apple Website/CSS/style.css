@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.apple-main-btn {
+  border: 1px solid rgba(211, 211, 211, 0.437);
+  background-color: transparent;
+  padding: 7px 9px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.store-btn {
+  border: 0;
+  background-color: transparent;
+  color: rgb(86, 18, 139);
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.iphone14-link:hover {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.iphone14-link {
+  color: yellow;
+  text-decoration: none;
+}
+
+header {
+  background-color: #3a3633;
+  color: #fff;
+  font-size: 22px;
+}
+
+.sub-head {
+  padding: 0 20px;
+  text-align: center;
+}
+
+header img {
+  height: 3em;
+  width: auto;
+  /* display: inline-block; */
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.legal-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover,
+.logo:hover,
+.legal-links a:hover {
+  opacity: 60%;
+}
+
+footer {
+  background-color: #3a3633;
+  color: #fff;
+  /* position: fixed;
+  bottom: 0; */
+}
+
+.contact a {
+  color: blue;
+}
+
+/* .logo,
+.contact,
+.legal-links,
+.copyright {
+  padding-left: 50px;
+}
+
+.TV,
+.language {
+  padding-right: 50px;
+} */
+
+/* flexbox */
+.rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.logo {
+  padding-top: 7px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  max-height: 90px;
+}
+
+.main {
+  background-image: url(../imgs/apple-background.jpg);
+  /*background-repeat: no-repeat;*/
+  background-size: auto; /*本来是cover但是不想让它跟着屏幕变化而变化 */
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 10%;
+  max-height: 109px;
+}
+
+.footer-row {
+  display: flex;
+  /* padding: 0, 40px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 415px) {
+  footer {
+    font-size: 10px;
+    gap: 1px;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  footer {
+    font-size: 12px;
+  }
+}

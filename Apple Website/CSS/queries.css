@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1068px) {
+  .compare-table {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 75px;
+  }
+
+  .iphone-page-overall {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .device-image {
+    height: 165px;
+  }
+  .device-name {
+    height: 18px;
+  }
+  .compare-table {
+    width: 87.5%;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .compare-table {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 36px;
+  }
+  .name-slogan {
+    height: 62px;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .iphone-14-pro-device,
+  .iphone-14-device,
+  .iphone-13-device,
+  .iphone-SE-device {
+    gap: 12px;
+  }
+}
